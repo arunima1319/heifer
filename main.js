@@ -1,5 +1,5 @@
 let name = "Aakarsh";
 
-const { message } = require("./moo.js");
+import { moo } from "./moo.js";
 
-console.log(message(name)); 
+console.log(moo(name)); 

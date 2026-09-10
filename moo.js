@@ -1,7 +1,5 @@
-const message = (name) => {
+const moo = (name) => {
     return `moo, ${name}!`;
 }
 
-module.exports = {
-    message,
-};
+export { moo }; 
